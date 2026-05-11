@@ -1,1 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/product_details_page.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+    <header class="header">
+        <!-- TOP HEADER -->
+        <div class="container header-top">
+            <!-- Logo -->
+            <div class="logo">
+                <img src="assets/logo-colored.png" alt="logo">
+                <p>Store</p>
+            </div>
+            <!-- Search -->
+            <div class="search-box">
+                <input type="text" placeholder="Search">
+                <select>
+                    <option>All category</option>
+                </select>
+                <button class="search-btn">Search</button>
+            </div>
+            <!-- Icons -->
+            <div class="icons">
+                <a href="#" class="icon">
+                    <img src="assets/profile.png">
+                    <span>Profile</span>
+                </a>
+                <a href="#" class="icon">
+                    <img src="assets/message.png">
+                    <span>Message</span>
+                </a>
+                <a href="#" class="icon">
+                    <img src="assets/order.png">
+                    <span>Orders</span>
+                </a>
+                <a href="#" class="icon">
+                    <img src="assets/cart.png">
+                    <span>My cart</span>
+                </a>
+            </div>
+        </div>
+        <!-- NAVBAR -->
+        <div class="navbar">
+            <div class="container nav-content">
+                <div class="nav-left">
+                    <span class="menu">☰ All category</span>
+                    <a href="#">Hot offers</a>
+                    <a href="#">Gift boxes</a>
+                    <a href="#">Projects</a>
+                    <a href="#">Menu item</a>
+                    <a href="#">Help</a>
+                </div>
+                <div class="nav-right">
+                    <span>English, USD &#8964;</span>
+                    <span>Ship to <img src="assets/flags/DE@2x.png"> &#8964;</span>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="product-page">
+
+        <!-- BREADCRUMB -->
+        <div class="breadcrumb">
+            <a href="index.html">Home</a> >
+            <span>Clothing</span> >
+            <span>Men's wear</span> >
+            <span>Summer clothing</span>
+        </div>
+
+        <div class="layout">
+
+            <!-- SIDEBAR -->
+            <aside class="sidebar">
+
+                <div class="filter-block">
+                    <h4>Category</h4>
+                    <ul>
+                        <li>Mobile accessory</li>
+                        <li>Electronics</li>
+                        <li>Smartphones</li>
+                        <li class="active">Modern tech</li>
+                        <li class="see">See all</li>
+                    </ul>
+                </div>
+
+                <div class="filter-block">
+                    <h4>Brands</h4>
+                    <label><input type="checkbox"> Samsung</label>
+                    <label><input type="checkbox"> Apple</label>
+                    <label><input type="checkbox"> Huawei</label>
+                    <label><input type="checkbox"> Poco</label>
+                    <label><input type="checkbox"> Lenovo</label>
+                    <span class="see">See all</span>
+                </div>
+
+                <div class="filter-block">
+                    <h4>Features</h4>
+                    <label><input type="checkbox"> Metallic</label>
+                    <label><input type="checkbox"> Plastic cover</label>
+                    <label><input type="checkbox"> 8GB Ram</label>
+                    <label><input type="checkbox"> Super power</label>
+                    <label><input type="checkbox"> Large memory</label>
+                </div>
+
+                <div class="filter-block">
+                    <h4>Price range</h4>
+                    <input type="range">
+                    <div class="price-box">
+                        <input type="text" placeholder="Min">
+                        <input type="text" placeholder="Max">
+                    </div>
+                    <button>Apply</button>
+                </div>
+
+                <div class="filter-block">
+                    <h4>Condition</h4>
+                    <label><input type="radio" name="c"> Any</label>
+                    <label><input type="radio" name="c"> Refurbished</label>
+                    <label><input type="radio" name="c"> Brand new</label>
+                    <label><input type="radio" name="c"> Old items</label>
+                </div>
+
+                <div class="filter-block">
+                    <h4>Ratings</h4>
+                    <label><input type="checkbox"> ⭐⭐⭐⭐⭐</label>
+                    <label><input type="checkbox"> ⭐⭐⭐⭐</label>
+                    <label><input type="checkbox"> ⭐⭐⭐</label>
+                </div>
+
+            </aside>
+
+            <div class="products">
+
+                <!-- TOP BAR -->
+                <div class="topbar">
+                    <span>12,911 items in <b>Mobile accessory</b></span>
+
+                    <div class="top-actions">
+                        <label><input type="checkbox"> Verified only</label>
+
+                        <select>
+                            <option>Featured</option>
+                        </select>
+
+                        <div class="view-icons">
+                            <span>☰</span>
+                            <span>⬛</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PRODUCT 1 -->
+                <div class="card">
+                    <img src="assets/tech/redphone.png">
+                    <div class="details">
+                        <h3>Canon Camera EOS 2000, Black 10x zoom</h3>
+                        <div class="price">$998.00 <span>$1128.00</span></div>
+                        <div class="meta">
+                            ⭐⭐⭐⭐⭐ <span class="orange">7.5</span>
+                            <span class="gray">154 orders</span>
+                            <span class="green">Free Shipping</span>
+                        </div>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                        </p>
+                        <a href="product-filtered.html">View details</a>
+                    </div>
+                    <div class="fav">♡</div>
+                </div>
+
+                <!-- PRODUCT 2 -->
+                <div class="card">
+                    <img src="assets/tech/phone1.png">
+                    <div class="details">
+                        <h3>GoPro HERO6 4K Action Camera - Black</h3>
+                        <div class="price">$998.00 </div>
+                        <div class="meta">
+                            ⭐⭐⭐⭐⭐ <span class="orange">7.5</span>
+                            <span class="gray">154 orders</span>
+                            <span class="green">Free Shipping</span>
+                        </div>
+                        <p>
+                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                            ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+                        </p>
+                        <a href="product-filtered.html">View details</a>
+                    </div>
+                    <div class="fav">♡</div>
+                </div>
+
+                <!-- PRODUCT 3 -->
+                <div class="card">
+                    <img src="assets/tech/phone2.png">
+                    <div class="details">
+                        <h3>GoPro HERO6 4K Action Camera - Black</h3>
+                        <div class="price">$998.00</div>
+                        <div class="meta">
+                            ⭐⭐⭐⭐⭐ <span class="orange">7.5</span>
+                            <span class="gray">154 orders</span>
+                            <span class="green">Free Shipping</span>
+                        </div>
+                        <p>
+                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                            ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+                        </p>
+                        <a href="product-filtered.html">View details</a>
+                    </div>
+                    <div class="fav">♡</div>
+                </div>
+
+                <!-- PRODUCT 4 -->
+                <div class="card">
+                    <img src="assets/tech/laptop.png">
+                    <div class="details">
+                        <h3>GoPro HERO6 4K Action Camera - Black</h3>
+                        <div class="price">$998.00</div>
+                        <div class="meta">
+                            ⭐⭐⭐⭐⭐ <span class="orange">7.5</span>
+                            <span class="gray">154 orders</span>
+                            <span class="green">Free Shipping</span>
+                        </div>
+                        <p>
+                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                            ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+                        </p>
+                        <a href="product-filtered.html">View details</a>
+                    </div>
+                    <div class="fav">♡</div>
+                </div>
+
+                <!-- PRODUCT 5 -->
+                <div class="card">
+                    <img src="assets/tech/watch.png">
+                    <div class="details">
+                        <h3>GoPro HERO6 4K Action Camera - Black</h3>
+                        <div class="price">$998.00 <span>$1128.00</span></div>
+                        <div class="meta">
+                            ⭐⭐⭐⭐⭐ <span class="orange">7.5</span>
+                            <span class="gray">154 orders</span>
+                            <span class="green">Free Shipping</span>
+                        </div>
+                        <p>
+                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                            ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+                        </p>
+                        <a href="product-filtered.html">View details</a>
+                    </div>
+                    <div class="fav">♡</div>
+                </div>
+
+                <!-- PRODUCT 6 -->
+                <div class="card">
+                    <img src="assets/tech/whiteheadphone.png">
+                    <div class="details">
+                        <h3>GoPro HERO6 4K Action Camera - Black</h3>
+                        <div class="price">$998.00</div>
+                        <div class="meta">
+                            ⭐⭐⭐⭐⭐ <span class="orange">7.5</span>
+                            <span class="gray">154 orders</span>
+                            <span class="green">Free Shipping</span>
+                        </div>
+                        <p>
+                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                            ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+                        </p>
+                        <a href="product-filtered.html">View details</a>
+                    </div>
+                    <div class="fav">♡</div>
+                </div>
+
+                <!-- PAGINATION -->
+                <div class="pagination">
+
+                    <button>1</button>
+                    <button>2</button>
+                    <button>3</button>
+                </div>
+
+            </div>
+
+        </div>
+
+        </div>
+    </section>
+
+    <!-- NEWSLETTER -->
+    <section class="newsletter">
+        <h3>Subscribe on our newsletter</h3>
+        <p>Get daily news on upcoming offers from many suppliers all over the world</p>
+
+        <div class="newsletter-form">
+            <input type="email" placeholder="Email">
+            <button>Subscribe</button>
+        </div>
+    </section>
+    
+    <!-- FOOTER -->
+    <footer class="footer">
+
+        <div class="footer-top">
+
+            <div class="brand">
+                <img src="assets/logo-colored.png">
+                <p>Best information about the company goes here but now lorem ipsum is</p>
+                <div class="socials">
+                    <span><i class="fa-brands fa-facebook-f"></i></span>
+                    <span><i class="fa-brands fa-twitter"></i></span>
+                    <span><i class="fa-brands fa-linkedin-in"></i></span>
+                    <span><i class="fa-brands fa-instagram"></i></span>
+                    <span><i class="fa-brands fa-youtube"></i></span>
+                </div>
+            </div>
+
+            <div class="footer-col">
+                <h4>About</h4>
+                <a href="#">About Us</a>
+                <a href="#">Find store</a>
+                <a href="#">Categories</a>
+                <a href="#">Blogs</a>
+            </div>
+
+            <div class="footer-col">
+                <h4>Partnership</h4>
+                <a href="#">About Us</a>
+                <a href="#">Find store</a>
+                <a href="#">Categories</a>
+                <a href="#">Blogs</a>
+            </div>
+
+            <div class="footer-col">
+                <h4>Information</h4>
+                <a href="#">Help Center</a>
+                <a href="#">Money Refund</a>
+                <a href="#">Shipping</a>
+                <a href="#">Contact us</a>
+            </div>
+
+            <div class="footer-col">
+                <h4>For users</h4>
+                <a href="#">Login</a>
+                <a href="#">Register</a>
+                <a href="#">Settings</a>
+                <a href="#">My Orders</a>
+            </div>
+
+            <div class="footer-col app">
+                <h4>Get app</h4>
+                <img src="assets/appstore.png">
+                <img src="assets/playstore.png">
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2023 Ecommerce.</p>
+            <span><img src="assets/flags/US@2x.png"> English &#8964;</span>
+        </div>
+
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
