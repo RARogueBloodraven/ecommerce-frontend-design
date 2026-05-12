@@ -9,12 +9,6 @@ A modern and responsive E-Commerce frontend website built using **HTML**, **CSS*
 
 ---
 
-## 🌐 Live Demo
-
-🚀 **[View Website Here → E-Commerce Frontend Demo](https://ecommerce-frontend-designs-devhub.netlify.app/)**
-
----
-
 ## ✨ Features
 
 - Responsive ecommerce design
@@ -73,20 +67,13 @@ A modern and responsive E-Commerce frontend website built using **HTML**, **CSS*
 
 ```
 📦 ecommerce-frontend-design
- ┣ 📂 assets
- ┃ ┣ 📂 backgrounds
- ┃ ┣ 📂 cloth
- ┃ ┣ 📂 flags
- ┃ ┣ 📂 interior
- ┃ ┗ 📂 tech
- ┃
+ ┣ 📂 assets (ALL IMAGES)
  ┣ 📂 css
  ┃ ┣ 📄 style.css
  ┃ ┣ 📄 cart.css
  ┃ ┣ 📄 product_details_page.css
  ┃ ┣ 📄 product_page.css
  ┃ ┗ 📄 product_filter_page.css
- ┃
  ┣ 📂 js
  ┃ ┗ 📄 script.js
  ┃
@@ -124,25 +111,6 @@ Open `index.html` in your browser.
 - ✨ Modern card designs
 - ✨ Styled buttons and forms
 - ✨ Smooth hover effects
-
----
-
-## 🎯 Future Improvements
-
-- Backend integration
-- Real search functionality
-- Product filtering logic
-- User authentication
-- Database connectivity
-- Payment gateway support
-- Mobile navbar improvements
-- Local Storage cart system
-
----
-
-## 👨‍💻 Author
-
-Made with ❤️ using **HTML**, **CSS** & **JavaScript**
 
 ---
 
