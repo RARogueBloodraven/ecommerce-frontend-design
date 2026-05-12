@@ -169,4 +169,163 @@ document.addEventListener("DOMContentLoaded", () => {
 
   }
 
+  // REMOVE SINGLE CART ITEM
+
+  const removeButtons = document.querySelectorAll(".remove");
+
+  removeButtons.forEach(button => {
+
+    button.addEventListener("click", () => {
+
+      // FIND PARENT CART ITEM
+      const cartItem = button.closest(".cart-item");
+
+      // REMOVE ITEM
+      cartItem.remove();
+
+      // UPDATE CART COUNT
+      updateCartCount();
+
+    });
+
+  });
+
+
+  // REMOVE ALL ITEMS
+  const removeAllBtn = document.querySelector(".remove-all");
+
+  if (removeAllBtn) {
+
+    removeAllBtn.addEventListener("click", () => {
+
+      const allItems = document.querySelectorAll(".cart-item");
+
+      allItems.forEach(item => {
+        item.remove();
+      });
+
+      updateCartCount();
+
+    });
+
+  }
+
+
+  // SAVE FOR LATER
+  const saveButtons = document.querySelectorAll(".save");
+
+  saveButtons.forEach(button => {
+
+    button.addEventListener("click", () => {
+
+      button.innerHTML = "Saved ✓";
+
+      button.style.background = "#d1ffe0";
+      button.style.color = "green";
+
+    });
+
+  });
+
+
+  // MOVE TO CART BUTTON
+  const moveButtons = document.querySelectorAll(".saved-card button");
+
+  moveButtons.forEach(button => {
+
+    button.addEventListener("click", () => {
+
+      button.innerHTML = "Added ✓";
+
+      button.style.background = "#0d6efd";
+      button.style.color = "white";
+
+    });
+
+  });
+
+
+  // APPLY COUPON
+  const couponBtn = document.querySelector(".coupon-input button");
+
+  if (couponBtn) {
+
+    couponBtn.addEventListener("click", () => {
+
+      const couponInput = document.querySelector(".coupon-input input");
+
+      if (couponInput.value.trim() === "") {
+
+        alert("Please enter a coupon code");
+
+      } else {
+
+        alert("Coupon Applied Successfully!");
+
+      }
+
+    });
+
+  }
+
+
+  // CHECKOUT BUTTON
+  const checkoutBtn = document.querySelector(".checkout-btn");
+
+  if (checkoutBtn) {
+
+    checkoutBtn.addEventListener("click", () => {
+
+      alert("Proceeding to Checkout...");
+
+    });
+
+  }
+
+
+
+  // QUANTITY CHANGE
+  const quantitySelects = document.querySelectorAll(".item-right select");
+
+  quantitySelects.forEach(select => {
+
+    select.addEventListener("change", () => {
+
+      alert("Quantity Updated");
+
+    });
+
+  });
+
+
+  // BACK TO SHOP
+  const backShopBtn = document.querySelector(".back-shop");
+
+  if (backShopBtn) {
+
+    backShopBtn.addEventListener("click", () => {
+
+      window.location.href = "index.html";
+
+    });
+
+  }
+
+
+
+  // SHOP NOW BUTTON
+  const shopNowBtn = document.querySelector(".discount-banner button");
+
+  if (shopNowBtn) {
+
+    shopNowBtn.addEventListener("click", () => {
+
+      alert("Redirecting to offers...");
+
+    });
+
+  }
+
+
+
 });
