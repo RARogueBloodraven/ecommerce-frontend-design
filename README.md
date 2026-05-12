@@ -37,7 +37,6 @@ This project includes a fully designed shopping interface with product pages, ca
 ✔ Coupon button interaction
 ✔ Newsletter subscription alert
 ✔ Product image gallery switching
-✔ Pagination active state
 ✔ Add to cart interactions
 
 ---
@@ -47,7 +46,6 @@ This project includes a fully designed shopping interface with product pages, ca
 * HTML5
 * CSS3
 * JavaScript
-* Font Awesome Icons
 
 ---
 
@@ -68,6 +66,8 @@ This project includes a fully designed shopping interface with product pages, ca
  ┣ 📄 product-filtered.html
  ┣ 📄 product-page.html
  ┗ 📄 cart.html
+```
+
 ---
 
 # 🎨 UI Highlights
@@ -78,6 +78,17 @@ This project includes a fully designed shopping interface with product pages, ca
 ✨ Interactive buttons
 ✨ Hover animations
 ✨ Styled product grids
+
+---
+
+# 💡 Future Improvements
+
+* Backend integration
+* Real search functionality
+* Login & authentication
+* Database support
+* Payment gateway integration
+* Fully responsive mobile navbar
 
 
 ---
