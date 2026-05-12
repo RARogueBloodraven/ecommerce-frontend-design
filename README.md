@@ -59,7 +59,7 @@ A modern and responsive E-Commerce frontend website built using **HTML**, **CSS*
 | HTML5 | Structure |
 | CSS3 | Styling & Layout |
 | JavaScript | Interactivity |
-| Font Awesome | Icons |
+| Assets | Icons & Images |
 
 ---
 
