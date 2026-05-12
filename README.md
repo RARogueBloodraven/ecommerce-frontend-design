@@ -1,98 +1,174 @@
-# 🛒 E-Commerce Store Website
+🛍️ E-Commerce Frontend Website
 
-> *“Good design is obvious. Great design is transparent.”* — Joe Sparano
+“Good design is obvious. Great design is transparent.” — Joe Sparano
 
-A modern multi-page **E-Commerce Store Website** built using **HTML, CSS, and JavaScript**.
-This project includes a fully designed shopping interface with product pages, cart functionality, filters, responsive layouts, and interactive UI elements.
+A modern and responsive E-Commerce frontend website built using HTML, CSS, and JavaScript.
+This project focuses on creating a clean shopping experience with interactive UI components, responsive layouts, product displays, filtering sections, and shopping cart functionality.
 
----
+🌐 Live Demo
+🚀 View Website Here:
+E-Commerce Frontend Demo
 
-# ✨ Features
+✨ Features
 
-* Responsive ecommerce design
-* Product listing layouts
-* Product detail sections
-* Shopping cart UI
-* Sidebar filters
-* Wishlist functionality
-* Grid/List product view
-* Quantity selectors
-* Coupon section
-* Related products
-* Seller information section
-* Newsletter subscription
-* Footer with social icons
-* Reusable UI components
-* Interactive buttons and effects
 
----
+Responsive ecommerce design
 
-# ⚡ JavaScript Functionality
 
-✔ Search bar interaction
-✔ Wishlist toggle ❤️
-✔ Grid/List product view switch
-✔ Remove cart item
-✔ Quantity update
-✔ Coupon button interaction
-✔ Newsletter subscription alert
-✔ Product image gallery switching
-✔ Add to cart interactions
+Modern homepage layout
 
----
 
-# 🛠 Technologies Used
+Product cards and product sections
 
-* HTML5
-* CSS3
-* JavaScript
 
----
+Product detail layouts
 
-# 📂 Project Structure
 
-```bash id="twx4h0"
-📦 ecommerce-store
- ┣ 📂 assets
- ┣ 📂 css
- ┃ ┣ 📄 style.css
- ┃ ┣ 📄 cart.css
- ┃ ┣ 📄 product_details_page.css
- ┃ ┗ 📄 product_filter_page.css
- ┣ 📂 js
- ┃ ┗ 📄 script.js
- ┣ 📄 index.html
- ┣ 📄 product-details.html
- ┣ 📄 product-filtered.html
- ┣ 📄 product-page.html
- ┗ 📄 cart.html
-```
+Shopping cart interface
 
----
 
-# 🎨 UI Highlights
+Sidebar filtering UI
 
+
+Wishlist functionality ❤️
+
+
+Grid/List product view switch
+
+
+Quantity selectors
+
+
+Coupon section
+
+
+Seller information section
+
+
+Product image gallery
+
+
+Related products section
+
+
+“Save for later” functionality
+
+
+Newsletter subscription section
+
+
+Interactive buttons and hover effects
+
+
+Reusable ecommerce UI components
+
+
+Footer with social media icons
+
+
+
+⚡ JavaScript Functionality
+
+
+Search bar interaction
+
+
+Wishlist heart toggle
+
+
+Remove cart items
+
+
+Remove all cart items
+
+
+Save for later interaction
+
+
+Move item to cart
+
+
+Quantity update interaction
+
+
+Product image switching
+
+
+Pagination active state
+
+
+Grid/List product view switch
+
+
+Filter tag removal
+
+
+Dynamic cart count updates
+
+
+Checkout interaction alerts
+
+
+Social icon hover effects
+
+
+Interactive button animations
+
+
+
+🛠️ Technologies Used
+TechnologyPurposeHTML5StructureCSS3Styling & LayoutJavaScriptInteractivityFont AwesomeIcons
+
+📂 Project Structure
+📦 ecommerce-frontend-design ┣ 📂 assets ┃ ┣ 📂 backgrounds ┃ ┣ 📂 cloth ┃ ┣ 📂 flags ┃ ┣ 📂 interior ┃ ┗ 📂 tech ┃ ┣ 📂 css ┃ ┣ 📄 style.css ┃ ┣ 📄 cart.css ┃ ┣ 📄 product_details_page.css ┃ ┣ 📄 product_page.css ┃ ┗ 📄 product_filter_page.css ┃ ┣ 📂 js ┃ ┗ 📄 script.js ┃ ┣ 📄 index.html ┣ 📄 product-details.html ┣ 📄 product-filtered.html ┣ 📄 product-page.html ┗ 📄 cart.html
+
+🚀 How to Run
+Clone Repository
+git clone https://github.com/RARogueBloodraven/ecommerce-frontend-design.git
+Open Project Folder
+cd ecommerce-frontend-design
+Run Website
+Open index.html in your browser.
+
+🎨 UI Highlights
 ✨ Clean ecommerce layout
+✨ Responsive product grids
+✨ Interactive UI elements
 ✨ Modern card designs
-✨ Responsive sections
-✨ Interactive buttons
-✨ Hover animations
-✨ Styled product grids
+✨ Styled buttons and forms
+✨ Smooth hover effects
 
----
-
-# 💡 Future Improvements
-
-* Backend integration
-* Real search functionality
-* Login & authentication
-* Database support
-* Payment gateway integration
-* Fully responsive mobile navbar
+🎯 Future Improvements
 
 
----
+Backend integration
 
-# 🌟 Final Note
 
-> *“First, solve the problem. Then, write the code.”* — John Johnson
+Real search functionality
+
+
+Product filtering logic
+
+
+User authentication
+
+
+Database connectivity
+
+
+Payment gateway support
+
+
+Mobile navbar improvements
+
+
+Local Storage cart system
+
+
+
+👨‍💻 Author
+Made with ❤️ using HTML, CSS & JavaScript
+
+🌟 Final Note
+
+“First, solve the problem. Then, write the code.” — John Johnson
